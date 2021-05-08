@@ -14,7 +14,9 @@ const PORT = process.env.PORT||5000
 app.use('/api/', user)
 
 
-
+app.get('/',(req,res)=>{
+  res.send("This is my Crud App")
+})
 
 
 
